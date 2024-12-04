@@ -10,7 +10,7 @@
 Добавьте пакет в ваш проект Laravel:
 
 ```bash
-composer require vendor/ktranslate
+composer require kirhtarg/ktranslate
 ```
 
 ### 2. Запуск миграций
