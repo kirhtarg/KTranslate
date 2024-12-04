@@ -12,6 +12,11 @@ class LocalizationSupportServiceProvider extends ServiceProvider
         $this->loadMigrationsFrom(__DIR__ . '/Database/migrations');
 
         // Автозагрузка языковых файлов
-        $this->loadTranslationsFrom(__DIR__ . '/Resources/Lang', 'localization-support');
+        $this->loadTranslationsFrom(__DIR__ . '/Resources/Lang', 'Ktranslate');
+
+        $this->publishes([
+            __DIR__ . '/Config/ktranslate.php' => config_path('ktranslate.php'),
+        ], 'config');
     }
+
 }
