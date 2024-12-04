@@ -1,17 +1,17 @@
 {
-    "name": "vendor/kirhtarg/ktranslate",
+    "name": "kirhtarg/ktranslate",
     "description": "Trait for translating model fields in Laravel",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Vendor\\kirhtarg\\KTranslate\\": "src/"
+            "kirhtarg\\KTranslate\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\kirhtarg\\KTranslate\\KTranslateServiceProvider"
+                "kirhtarg\\KTranslate\\KTranslateServiceProvider"
             ]
         }
     }
